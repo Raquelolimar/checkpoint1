@@ -83,22 +83,28 @@
 
     .gridFive {
         display: grid;
+        grid-template-rows: 2fr 1fr;
         
- }
+        width: 500px;
+      }
 
-    .Images {
+    .new  {
+        background-color: blue;
+        height: 400px;
+    }
+    .Images  {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        background-color: blueviolet;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Images img {
         object-fit: cover;
-        
+        height: 200px;
+        width: 200px;
     }
-    .image1 {
-        background-color: brown;
-        
-    }
-    .image2 {
-        background-color:aqua;
-    }
+    
+    
 
 
     .gridSix {
@@ -157,16 +163,16 @@
     </div>
 
     <div class="gridFive">
-        <div class="new text">
+        <div class="new">
             <p> My Even More Awesome Text</p>
         </div>
         <div class="Images">
-            <div class="image1">
-              <img src="image/tilak-baloni-D9VxG14sOBw-unsplash.jpg" alt="" width="200px" height="200px">
-            </div>
-            <div class="image2">
-                <img src="image/yue-wu-gdxOGN_fTjE-unsplash.jpg" alt="" width="200px" height="200px">
-            </div>
+
+              <img src="image/tilak-baloni-D9VxG14sOBw-unsplash.jpg" alt="" >
+            
+            
+                <img src="image/yue-wu-gdxOGN_fTjE-unsplash.jpg" alt="">
+            
         </div>
     </div>
 
